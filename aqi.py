@@ -5,7 +5,7 @@ API_KEY = "04d7a334c39823689ff655dbdf7b46dc3662ed3a"
 CITY = "delhi"
 
 def get_air_quality(city):
-    url = f"https://api.eaqi.info/feed/
+    url = f"https://api.waqi.info/feed/
     {city}/?token={API_KEY}"
     response = requests.get(url)
     data = response.json()
