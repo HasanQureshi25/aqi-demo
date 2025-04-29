@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "04d7a334c39823689ff655dbdf7b46dc3662ed3a"
+API_KEY = "api key from website" #https://aqicn.org/data-platform/token/
 
 CITY = "delhi"
 
